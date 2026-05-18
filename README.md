@@ -4,9 +4,18 @@
 
 ## Технический стек
 
+- FastAPI
+- PostgreSQL 17
+- SQLAlchemy 2.0
+- Pydantic
+- asynpg
+- HTML/CSS/JS
+- Docker/Docker Compose
+- pytest
+
 В проекте используется фреймворк FastAPI в связке с 
 PostgreSQL + SQLAlchemy + asyncpg, Pydantic для сериализации и валидации, 
-Docker + Docker Compose для контейнеризации, HTML + CSS + JS для фронтенда и pytest для тестрования.
+Docker + Docker Compose для контейнеризации, HTML + CSS + JS для фронтенда и pytest для тестирования.
 
 Выбор FastAPI обусловлен его высокой скоростью разработки и асинхронностью "из коробки". Он хорошо подходит
 для решения данного тестового задания. В данном случае Django замедлил бы скорость разработки из-за долгой 
@@ -27,7 +36,7 @@ docker-compose up -d --build
 Приложение будет доступно по адресу:
 http://localhost:8000
 
-Документация будет доступна по ссылке http://localhost:8000/docs
+Документация будет доступна по ссылке: http://localhost:8000/docs
 
 ## Функциональность
 
